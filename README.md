@@ -4,7 +4,7 @@ A safe, Html wallet for Bismuth Cryptocurrency.
 Be safe!
 
 
-## Project Goal
+## Project Goal
 
 To handle all of the crypto client side, in javascript.
 
