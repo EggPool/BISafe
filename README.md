@@ -27,5 +27,5 @@ You have HTML and JS knowledge and want to be part of the journey? Get in touch!
 
 ## About Bismuth
 
-- [http://bismuth.cz/](Bismuth Website)
-- [https://github.com/hclivess/Bismuth](Bismuth Github)
+- [Bismuth Website](http://bismuth.cz/)
+- [Bismuth Github](https://github.com/hclivess/Bismuth)
