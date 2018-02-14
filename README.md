@@ -24,6 +24,7 @@ To handle all of the crypto client side, in javascript.
 
 You have HTML and JS knowledge and want to be part of the journey? Get in touch!
 
+See [Roadmap](https://github.com/EggPool/BisAfe/blob/master/Roadmap.md)
 
 ## About Bismuth
 
