@@ -6,8 +6,9 @@ All code is JS only, not minified, and does no xml-rpc nor external includes.
 
 You can run this on an air gaped computer, from within a tails or ubuntu usb key.
 
-## Usage
+## Usage
 
+- Get the repo
 - Load index.html into your browser
 - Gather entropy
 - Generates Cold Bis Address  
@@ -25,7 +26,7 @@ It's not clean nor production ready, do NOT trust it yet to store your BIS.
 
 WIP, much more to come.
 
-## Donations
+## Donations
 
 Donations are welcome and will be used for this project specifically: 0ee5609ee98f329b378d6a520afc8dec56092511ddc7ae00e0b790ce
 

@@ -1,4 +1,4 @@
-# Notice of Copyrights and Licenses
+# Notice of Copyrights and Licenses
 
 The BISafe project, software and embedded resources are copyright bisafe.net .  
 The BISafe name and logo are not part of the open source license.  
@@ -9,13 +9,13 @@ Included JavaScript libraries are separated with HTML script tags.
 
 Summary of JavaScript functions with a redistributable license:  
 
-JavaScript function		License
-*******************		***************
-window.Crypto			BSD License       http://code.google.com/p/crypto-js/
-window.SecureRandom		BSD License       http://www-cs-students.stanford.edu/~tjw/jsbn/
-window.BigInteger		BSD License       https://github.com/jasondavies/jsbn
-window.QRCode			MIT License       http://www.d-project.com/
-window.Crypto_scrypt	MIT License       https://github.com/cheongwy/node-scrypt-js
+JavaScript function		License  
+*******************		***************  
+window.Crypto			BSD License		http://code.google.com/p/crypto-js/  
+window.SecureRandom		BSD License		http://www-cs-students.stanford.edu/~tjw/jsbn/  
+window.BigInteger		BSD License		https://github.com/jasondavies/jsbn  
+window.QRCode			MIT License		http://www.d-project.com/  
+window.Crypto_scrypt	MIT License		https://github.com/cheongwy/node-scrypt-js  
 
-The BISafe software is available under The GNU GPL V2 Licence
-Copyright (c) 2018 bisafe.net
+The BISafe software is available under The GNU GPL V2 Licence  
+Copyright (c) 2018 bisafe.net  
