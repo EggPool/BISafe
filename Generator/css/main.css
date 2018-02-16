@@ -1,0 +1,13 @@
+.seedpoint { width: 6px; height: 6px; display: block; border-radius: 3px; background-color: #009900; position: absolute; z-index: 10; }
+.seedpoint0 { width: 6px; height: 6px; display: block; border-radius: 3px; background-color: #009900; position: absolute; z-index: 10; }
+.seedpoint1 { width: 6px; height: 6px; display: block; border-radius: 3px; background-color: #990000; position: absolute; z-index: 10; }
+.seedpoint2 { width: 6px; height: 6px; display: block; border-radius: 3px; background-color: #000099; position: absolute; z-index: 10; }
+.seedpoint3 { width: 6px; height: 6px; display: block; border-radius: 3px; background-color: #006666; position: absolute; z-index: 10; }
+.seedpoint4 { width: 6px; height: 6px; display: block; border-radius: 3px; background-color: #666600; position: absolute; z-index: 10; }
+.seedpoint5 { width: 6px; height: 6px; display: block; border-radius: 3px; background-color: #660066; position: absolute; z-index: 10; }
+
+
+.hide { display: none; }
+.show { display: block; }
+
+#time-report { display: block; width: 100%}

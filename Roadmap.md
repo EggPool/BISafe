@@ -16,7 +16,8 @@ No framework or a very lightweight one will be prefered to a huge codebase.
 ## 2. Basic features
 
 - Entropy gathering
-- New Bismuth address generation
+- New Bismuth address generation  
+  (POC ok, see the [Offline Bismuth Address gernerator](./Generator/Readme.md), for cold wallets).  
 - Local storage of the keys
 - Display balance and last (all?) transactions
 - Display openfield
@@ -36,3 +37,8 @@ No framework or a very lightweight one will be prefered to a huge codebase.
 ## 4. Mobile App
 
 - Use cordova to convert into cross platform mobile app
+
+
+## Donations
+
+Donations are welcome and will be used for this project specifically: 0ee5609ee98f329b378d6a520afc8dec56092511ddc7ae00e0b790ce

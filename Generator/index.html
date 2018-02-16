@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bismuth Address Generator</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="src/cryptojs.js"></script>
+	<script type="text/javascript" src="src/cryptojs.sha256.js"></script>
+	<script type="text/javascript" src="src/cryptojs.sha224.js"></script>
+  <script type="text/javascript" src="src/securerandom.js"></script>
+  <script type="text/javascript" src="src/jsencrypt.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body onclick="SecureRandom.seedTime();" onmousemove="ninja.seeder.seed(event);">
+
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Bismuth Address Generator</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="https://github.com/EggPool/BISafe/archive/master.zip" role="button">Download</a>
+        </li>
+        <li>
+          <a href="https://github.com/EggPool/BISafe" role="button" target="_blank">GitHub Project</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="panel panel-default">
+			  
+			<div class="panel-heading"><h1>Offline Bismuth Address Generator</h1></div>
+			
+			
+			<div id="seedpanel" class="panel-body">
+				 <div class="col-lg-6">
+					 <label for="seedpool">Entropy pool</label>
+					<div id="seedpoolarea"><textarea rows="7" cols="62" id="seedpool"></textarea></div>
+				</div>
+
+				<div id="generate" class="col-lg-6">
+					<span id="generatelabelbitcoinaddress"><label>Gathering Entropy...</label></span><br />
+					<span id="generatelabelmovemouse">MOVE your mouse around to add some extra randomness... </span><span id="mousemovelimit"></span><br />
+					<span id="generatelabelkeypress">OR type some random characters into this textbox</span><br /><input type="text" id="generatekeyinput" onkeydown="ninja.seeder.seedKeyPress(event);" style="width:100%"  /><br />
+					<!-- div id="seedpooldisplay"></div -->
+				</div>   
+				<div id="generated" class="col-lg-6" style="display:none">
+				<h3>You rock! Enough entropy gathered.</h3>
+							  <div class="col-lg-12">        
+								<button id="generate" class="btn btn-primary" onclick="ninja.generateKeys();">Generate New Keys</button>
+								<br>&nbsp;<br>
+								<span id="time-report"></span>
+							  </div>
+				</div> 
+			</div><!-- /seedpanel -->
+			
+			
+			<div class="panel-body">
+
+
+			  
+			  <div class="col-lg-12">
+					<label for="bisaddress">Bismuth Address</label>
+					  <textarea id="bisaddress" rows="1" style="width:100%" readonly="readonly"></textarea>
+			  </div>
+			  <div class="col-lg-6">
+					<label for="privkey">Private Key</label><br/> <small>
+					  <textarea id="privkey" rows="15" style="width:100%" readonly="readonly"></textarea>
+					</small>
+			  </div>
+			  <div class="col-lg-6">
+				<label for="pubkey">Public Key</label><br/>
+				<small><textarea id="pubkey" rows="15" style="width:100%" readonly="readonly"></textarea></small>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+
+			<div class="authorbtc">
+				<div>
+					<span class="item">
+						<span class="statusicon" id="statusprotocol" onclick="ninja.status.showProtocol();">...</span>
+						<span class="statusicon" id="statuscrypto" onclick="ninja.status.showCrypto();">...</span>
+						<span class="statusicon" id="statusunittests" onclick="ninja.status.showUnitTests();">...</span>
+						<span class="statusicon" id="statuskeypool" onclick="ninja.status.showKeyPool();">&#8803;</span>
+					</span>
+					<span class="item"><span id="footerlabeldonations">Donations:</span> BIS <b>0ee5609ee98f329b378d6a520afc8dec56092511ddc7ae00e0b790ce</b></span>
+					
+					
+				</div>
+			</div>
+
+<script type="text/javascript" src="src/ninja.key.js"></script>
+
+<script type="text/javascript" src="src/ninja.seeder.js"></script>
+<script type="text/javascript" src="src/ninja.misc.js"></script>
+
+<script type="text/javascript" src="src/ninja.onload.js"></script>
+
+
+</body>
+</html>

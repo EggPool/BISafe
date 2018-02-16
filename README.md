@@ -3,6 +3,8 @@
 A safe, Html wallet for Bismuth Cryptocurrency.
 Be safe!
 
+See also the [Offline Bismuth Address gernerator](./Generator/Readme.md), for cold wallets.
+
 
 ## Project Goal
 
@@ -30,3 +32,7 @@ See [Roadmap](https://github.com/EggPool/BisAfe/blob/master/Roadmap.md)
 
 - [Bismuth Website](http://bismuth.cz/)
 - [Bismuth Github](https://github.com/hclivess/Bismuth)
+
+## Donations
+
+Donations are welcome and will be used for this project specifically: 0ee5609ee98f329b378d6a520afc8dec56092511ddc7ae00e0b790ce
